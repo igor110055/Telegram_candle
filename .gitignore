@@ -2,3 +2,4 @@
 **/__pycache__
 venv/
 proof_of_concept.py
+config_development.json

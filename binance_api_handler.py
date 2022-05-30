@@ -79,5 +79,5 @@ class Binance_api_handler():
         
         logging.info("Klines data saved in json file. FILE NAME: "+json_file_name)
         
-    def __exit__(self):
+    def __exit__(self, exc_type,exc_value, exc_traceback):
         logging.debug("Spot client destroyed")
